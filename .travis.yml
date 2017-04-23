@@ -3,7 +3,7 @@ node_js:
   - "7"
 cache:
   directories:
-  - node_modules # NPM packages
+    - node_modules # NPM packages
 before_script:
   - npm install -g typescript mocha tslint npm-run-all rimraf np
 script:
