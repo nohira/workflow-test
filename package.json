@@ -16,8 +16,8 @@
     "cover:coverage": "istanbul cover _mocha -- -u exports -R spec dist/test/**/*.spec.js",
     "cover:remap": "remap-istanbul -i coverage/coverage.json -o coverage/coverage-final.json -t json-summary",
     "cover": "npm-run-all cover:*",
-    "postversion": "git push && git push --tags",
-    "precommit": "npm run test"
+    "precommit": "npm run test",
+    "release": "np --no-publish"
   },
   "repository": {
     "type": "git",
