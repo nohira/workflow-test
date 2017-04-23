@@ -3,3 +3,7 @@ node_js:
   - "7"
 before_script:
   - npm install -g typescript mocha tslint npm-run-all rimraf np
+script:
+  - npm lint
+  - npm build
+  - npm ci:test:unit
