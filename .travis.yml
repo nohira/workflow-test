@@ -7,6 +7,6 @@ cache:
 before_script:
   - npm install -g typescript mocha tslint npm-run-all rimraf np
 script:
-  - npm lint
-  - npm build
-  - npm ci:test:unit
+  - npm run lint
+  - npm run build
+  - npm run ci:test:unit
