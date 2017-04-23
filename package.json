@@ -37,7 +37,9 @@
   "devDependencies": {
     "@types/chai": "^3.5.1",
     "@types/mocha": "^2.2.41",
-    "chai": "^3.5.0",
-    "np": "^2.13.2"
+    "chai": "^3.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
